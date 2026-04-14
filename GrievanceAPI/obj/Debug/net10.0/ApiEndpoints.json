@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "GrievanceAPI.Controllers.ComplaintController",
+    "Method": "GetAll",
+    "RelativePath": "api/Complaint",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GrievanceAPI.Controllers.ComplaintController",
+    "Method": "AddComplaint",
+    "RelativePath": "api/Complaint",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "complaint",
+        "Type": "GrievanceAPI.Models.Complaint",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GrievanceAPI.Controllers.ComplaintController",
+    "Method": "GetById",
+    "RelativePath": "api/Complaint/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GrievanceAPI.Controllers.ComplaintController",
+    "Method": "Update",
+    "RelativePath": "api/Complaint/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedComplaint",
+        "Type": "GrievanceAPI.Models.Complaint",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GrievanceAPI.Controllers.ComplaintController",
+    "Method": "Delete",
+    "RelativePath": "api/Complaint/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
