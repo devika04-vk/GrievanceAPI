@@ -22,12 +22,28 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "category",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "severity",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {
     "ContainingType": "GrievanceAPI.Controllers.ComplaintsController",
-    "Method": "GetComplaint",
+    "Method": "GetComplaintById",
     "RelativePath": "api/v1/Complaints/{id}",
     "HttpMethod": "GET",
     "IsController": true,

@@ -2,7 +2,7 @@
 {
     public static class PriorityService
     {
-        public static int GetPriorityScore(
+        public static int CalculatePriorityScore(
             string severity,
             string description)
         {

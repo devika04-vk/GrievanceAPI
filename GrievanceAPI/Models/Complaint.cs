@@ -12,12 +12,15 @@ namespace GrievanceAPI.Models
         public string Location { get; set; } = string.Empty;
 
         public string? Category { get; set; }
+        public string? Department { get; set; }
         public string? Severity { get; set; }
         public int PriorityScore { get; set; }
 
         public string? PriorityRank { get; set; } 
 
         public string? Status { get; set; }
+
+       
 
         public DateTime? SubmittedAt { get; set; }
     }

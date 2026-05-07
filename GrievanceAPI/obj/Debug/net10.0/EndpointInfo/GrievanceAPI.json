@@ -48,6 +48,29 @@
         "tags": [
           "Complaints"
         ],
+        "parameters": [
+          {
+            "name": "status",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "category",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "severity",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -168,6 +191,12 @@
             "type": "string"
           },
           "category": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "department": {
             "type": [
               "null",
               "string"
