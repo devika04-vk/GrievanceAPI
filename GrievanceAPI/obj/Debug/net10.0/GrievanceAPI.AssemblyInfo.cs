@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GrievanceAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae64586a1943ab44b9b211625c4e3e3d3ede957c")]
 [assembly: System.Reflection.AssemblyProductAttribute("GrievanceAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GrievanceAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

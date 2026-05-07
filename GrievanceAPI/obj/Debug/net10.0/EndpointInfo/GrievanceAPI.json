@@ -13,20 +13,10 @@
     }
   ],
   "paths": {
-    "/api/Complaint": {
-      "get": {
-        "tags": [
-          "Complaint"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
+    "/api/v1/Complaints": {
       "post": {
         "tags": [
-          "Complaint"
+          "Complaints"
         ],
         "requestBody": {
           "content": {
@@ -53,12 +43,22 @@
             "description": "OK"
           }
         }
-      }
-    },
-    "/api/Complaint/{id}": {
+      },
       "get": {
         "tags": [
-          "Complaint"
+          "Complaints"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v1/Complaints/{id}": {
+      "get": {
+        "tags": [
+          "Complaints"
         ],
         "parameters": [
           {
@@ -83,7 +83,7 @@
       },
       "put": {
         "tags": [
-          "Complaint"
+          "Complaints"
         ],
         "parameters": [
           {
@@ -100,26 +100,6 @@
             }
           }
         ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Complaint"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Complaint"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/Complaint"
-              }
-            }
-          },
-          "required": true
-        },
         "responses": {
           "200": {
             "description": "OK"
@@ -128,7 +108,7 @@
       },
       "delete": {
         "tags": [
-          "Complaint"
+          "Complaints"
         ],
         "parameters": [
           {
@@ -166,6 +146,12 @@
             ],
             "format": "int32"
           },
+          "citizenId": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
           "title": {
             "type": [
               "null",
@@ -177,6 +163,9 @@
               "null",
               "string"
             ]
+          },
+          "location": {
+            "type": "string"
           },
           "category": {
             "type": [
@@ -190,7 +179,15 @@
               "string"
             ]
           },
-          "priority": {
+          "priorityScore": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          },
+          "priorityRank": {
             "type": [
               "null",
               "string"
@@ -201,6 +198,13 @@
               "null",
               "string"
             ]
+          },
+          "submittedAt": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "date-time"
           }
         }
       }
@@ -208,7 +212,7 @@
   },
   "tags": [
     {
-      "name": "Complaint"
+      "name": "Complaints"
     }
   ]
 }

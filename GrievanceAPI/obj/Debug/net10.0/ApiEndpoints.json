@@ -1,18 +1,8 @@
 [
   {
-    "ContainingType": "GrievanceAPI.Controllers.ComplaintController",
-    "Method": "GetAll",
-    "RelativePath": "api/Complaint",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "GrievanceAPI.Controllers.ComplaintController",
-    "Method": "AddComplaint",
-    "RelativePath": "api/Complaint",
+    "ContainingType": "GrievanceAPI.Controllers.ComplaintsController",
+    "Method": "CreateComplaint",
+    "RelativePath": "api/v1/Complaints",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -26,9 +16,19 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GrievanceAPI.Controllers.ComplaintController",
-    "Method": "GetById",
-    "RelativePath": "api/Complaint/{id}",
+    "ContainingType": "GrievanceAPI.Controllers.ComplaintsController",
+    "Method": "GetComplaints",
+    "RelativePath": "api/v1/Complaints",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GrievanceAPI.Controllers.ComplaintsController",
+    "Method": "GetComplaint",
+    "RelativePath": "api/v1/Complaints/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -42,9 +42,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GrievanceAPI.Controllers.ComplaintController",
-    "Method": "Update",
-    "RelativePath": "api/Complaint/{id}",
+    "ContainingType": "GrievanceAPI.Controllers.ComplaintsController",
+    "Method": "UpdateComplaint",
+    "RelativePath": "api/v1/Complaints/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -53,19 +53,14 @@
         "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
-      },
-      {
-        "Name": "updatedComplaint",
-        "Type": "GrievanceAPI.Models.Complaint",
-        "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GrievanceAPI.Controllers.ComplaintController",
-    "Method": "Delete",
-    "RelativePath": "api/Complaint/{id}",
+    "ContainingType": "GrievanceAPI.Controllers.ComplaintsController",
+    "Method": "DeleteComplaint",
+    "RelativePath": "api/v1/Complaints/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
