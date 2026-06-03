@@ -24,17 +24,27 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "status",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
         "Name": "category",
         "Type": "System.String",
         "IsRequired": false
       },
       {
         "Name": "severity",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "department",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "location",
         "Type": "System.String",
         "IsRequired": false
       }
@@ -84,6 +94,58 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GrievanceAPI.Controllers.ComplaintsController",
+    "Method": "GetHistory",
+    "RelativePath": "api/v1/Complaints/history",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GrievanceAPI.Controllers.ComplaintsController",
+    "Method": "GetReports",
+    "RelativePath": "api/v1/Complaints/reports",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GrievanceAPI.Controllers.UsersController",
+    "Method": "Login",
+    "RelativePath": "api/v1/Users/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginUser",
+        "Type": "GrievanceAPI.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GrievanceAPI.Controllers.UsersController",
+    "Method": "Register",
+    "RelativePath": "api/v1/Users/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "GrievanceAPI.Models.User",
         "IsRequired": true
       }
     ],

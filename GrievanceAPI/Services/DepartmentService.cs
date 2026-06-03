@@ -19,7 +19,8 @@
                 category.Contains("sanitation"))
                 return "Sanitation Department";
 
-            if (category.Contains("health"))
+            if (category.Contains("health") || 
+                    category.Contains("Ambulance"))
                 return "Health Department";
 
             return "General Administration";

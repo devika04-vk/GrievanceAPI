@@ -10,5 +10,7 @@ namespace GrievanceAPI.Data
         }
 
         public DbSet<Complaint> Complaints { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<ResolutionHistory> ResolutionHistories { get; set; }
     }
 }

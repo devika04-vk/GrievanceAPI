@@ -3,24 +3,72 @@
   "WorkspaceRootPath": "C:\\Users\\Devika\\source\\repos\\GrievanceAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EA4565BA-0275-55E7-0B34-BE03FD10E8BE}|GrievanceAPI\\GrievanceAPI.csproj|c:\\users\\devika\\source\\repos\\grievanceapi\\grievanceapi\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA4565BA-0275-55E7-0B34-BE03FD10E8BE}|GrievanceAPI\\GrievanceAPI.csproj|solutionrelative:grievanceapi\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA4565BA-0275-55E7-0B34-BE03FD10E8BE}|GrievanceAPI\\GrievanceAPI.csproj|c:\\users\\devika\\source\\repos\\grievanceapi\\grievanceapi\\controllers\\complaintcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA4565BA-0275-55E7-0B34-BE03FD10E8BE}|GrievanceAPI\\GrievanceAPI.csproj|solutionrelative:grievanceapi\\controllers\\complaintcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EA4565BA-0275-55E7-0B34-BE03FD10E8BE}|GrievanceAPI\\GrievanceAPI.csproj|c:\\users\\devika\\source\\repos\\grievanceapi\\grievanceapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA4565BA-0275-55E7-0B34-BE03FD10E8BE}|GrievanceAPI\\GrievanceAPI.csproj|solutionrelative:grievanceapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA4565BA-0275-55E7-0B34-BE03FD10E8BE}|GrievanceAPI\\GrievanceAPI.csproj|c:\\users\\devika\\source\\repos\\grievanceapi\\grievanceapi\\models\\resolutionhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA4565BA-0275-55E7-0B34-BE03FD10E8BE}|GrievanceAPI\\GrievanceAPI.csproj|solutionrelative:grievanceapi\\models\\resolutionhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA4565BA-0275-55E7-0B34-BE03FD10E8BE}|GrievanceAPI\\GrievanceAPI.csproj|c:\\users\\devika\\source\\repos\\grievanceapi\\grievanceapi\\services\\resolutionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA4565BA-0275-55E7-0B34-BE03FD10E8BE}|GrievanceAPI\\GrievanceAPI.csproj|solutionrelative:grievanceapi\\services\\resolutionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA4565BA-0275-55E7-0B34-BE03FD10E8BE}|GrievanceAPI\\GrievanceAPI.csproj|c:\\users\\devika\\source\\repos\\grievanceapi\\grievanceapi\\models\\complaint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA4565BA-0275-55E7-0B34-BE03FD10E8BE}|GrievanceAPI\\GrievanceAPI.csproj|solutionrelative:grievanceapi\\models\\complaint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA4565BA-0275-55E7-0B34-BE03FD10E8BE}|GrievanceAPI\\GrievanceAPI.csproj|c:\\users\\devika\\source\\repos\\grievanceapi\\grievanceapi\\grievanceapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{EA4565BA-0275-55E7-0B34-BE03FD10E8BE}|GrievanceAPI\\GrievanceAPI.csproj|solutionrelative:grievanceapi\\grievanceapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{EA4565BA-0275-55E7-0B34-BE03FD10E8BE}|GrievanceAPI\\GrievanceAPI.csproj|c:\\users\\devika\\source\\repos\\grievanceapi\\grievanceapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA4565BA-0275-55E7-0B34-BE03FD10E8BE}|GrievanceAPI\\GrievanceAPI.csproj|solutionrelative:grievanceapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA4565BA-0275-55E7-0B34-BE03FD10E8BE}|GrievanceAPI\\GrievanceAPI.csproj|c:\\users\\devika\\source\\repos\\grievanceapi\\grievanceapi\\grievanceapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{EA4565BA-0275-55E7-0B34-BE03FD10E8BE}|GrievanceAPI\\GrievanceAPI.csproj|solutionrelative:grievanceapi\\grievanceapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{EA4565BA-0275-55E7-0B34-BE03FD10E8BE}|GrievanceAPI\\GrievanceAPI.csproj|c:\\users\\devika\\source\\repos\\grievanceapi\\grievanceapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA4565BA-0275-55E7-0B34-BE03FD10E8BE}|GrievanceAPI\\GrievanceAPI.csproj|solutionrelative:grievanceapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA4565BA-0275-55E7-0B34-BE03FD10E8BE}|GrievanceAPI\\GrievanceAPI.csproj|c:\\users\\devika\\source\\repos\\grievanceapi\\grievanceapi\\controllers\\complaintcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA4565BA-0275-55E7-0B34-BE03FD10E8BE}|GrievanceAPI\\GrievanceAPI.csproj|solutionrelative:grievanceapi\\controllers\\complaintcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA4565BA-0275-55E7-0B34-BE03FD10E8BE}|GrievanceAPI\\GrievanceAPI.csproj|c:\\users\\devika\\source\\repos\\grievanceapi\\grievanceapi\\services\\priorityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA4565BA-0275-55E7-0B34-BE03FD10E8BE}|GrievanceAPI\\GrievanceAPI.csproj|solutionrelative:grievanceapi\\services\\priorityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA4565BA-0275-55E7-0B34-BE03FD10E8BE}|GrievanceAPI\\GrievanceAPI.csproj|c:\\users\\devika\\source\\repos\\grievanceapi\\grievanceapi\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA4565BA-0275-55E7-0B34-BE03FD10E8BE}|GrievanceAPI\\GrievanceAPI.csproj|solutionrelative:grievanceapi\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA4565BA-0275-55E7-0B34-BE03FD10E8BE}|GrievanceAPI\\GrievanceAPI.csproj|c:\\users\\devika\\source\\repos\\grievanceapi\\grievanceapi\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA4565BA-0275-55E7-0B34-BE03FD10E8BE}|GrievanceAPI\\GrievanceAPI.csproj|solutionrelative:grievanceapi\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA4565BA-0275-55E7-0B34-BE03FD10E8BE}|GrievanceAPI\\GrievanceAPI.csproj|c:\\users\\devika\\source\\repos\\grievanceapi\\grievanceapi\\services\\severityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA4565BA-0275-55E7-0B34-BE03FD10E8BE}|GrievanceAPI\\GrievanceAPI.csproj|solutionrelative:grievanceapi\\services\\severityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA4565BA-0275-55E7-0B34-BE03FD10E8BE}|GrievanceAPI\\GrievanceAPI.csproj|c:\\users\\devika\\source\\repos\\grievanceapi\\grievanceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA4565BA-0275-55E7-0B34-BE03FD10E8BE}|GrievanceAPI\\GrievanceAPI.csproj|solutionrelative:grievanceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA4565BA-0275-55E7-0B34-BE03FD10E8BE}|GrievanceAPI\\GrievanceAPI.csproj|c:\\users\\devika\\source\\repos\\grievanceapi\\grievanceapi\\migrations\\20260531060359_addresolutionhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA4565BA-0275-55E7-0B34-BE03FD10E8BE}|GrievanceAPI\\GrievanceAPI.csproj|solutionrelative:grievanceapi\\migrations\\20260531060359_addresolutionhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA4565BA-0275-55E7-0B34-BE03FD10E8BE}|GrievanceAPI\\GrievanceAPI.csproj|c:\\users\\devika\\source\\repos\\grievanceapi\\grievanceapi\\migrations\\20260531055457_fixresolutiontracking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA4565BA-0275-55E7-0B34-BE03FD10E8BE}|GrievanceAPI\\GrievanceAPI.csproj|solutionrelative:grievanceapi\\migrations\\20260531055457_fixresolutiontracking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA4565BA-0275-55E7-0B34-BE03FD10E8BE}|GrievanceAPI\\GrievanceAPI.csproj|c:\\users\\devika\\source\\repos\\grievanceapi\\grievanceapi\\migrations\\20260531051637_adduserstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA4565BA-0275-55E7-0B34-BE03FD10E8BE}|GrievanceAPI\\GrievanceAPI.csproj|solutionrelative:grievanceapi\\migrations\\20260531051637_adduserstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA4565BA-0275-55E7-0B34-BE03FD10E8BE}|GrievanceAPI\\GrievanceAPI.csproj|c:\\users\\devika\\source\\repos\\grievanceapi\\grievanceapi\\migrations\\20260531052934_addresolutiontracking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA4565BA-0275-55E7-0B34-BE03FD10E8BE}|GrievanceAPI\\GrievanceAPI.csproj|solutionrelative:grievanceapi\\migrations\\20260531052934_addresolutiontracking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +78,213 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GrievanceAPI",
-              "DocumentMoniker": "C:\\Users\\Devika\\source\\repos\\GrievanceAPI\\GrievanceAPI\\GrievanceAPI.csproj",
-              "RelativeDocumentMoniker": "GrievanceAPI\\GrievanceAPI.csproj",
-              "ToolTip": "C:\\Users\\Devika\\source\\repos\\GrievanceAPI\\GrievanceAPI\\GrievanceAPI.csproj",
-              "RelativeToolTip": "GrievanceAPI\\GrievanceAPI.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-14T05:10:57.768Z",
-              "EditorCaption": ""
+              "DocumentIndex": 14,
+              "Title": "20260531055457_FixResolutionTracking.cs",
+              "DocumentMoniker": "C:\\Users\\Devika\\source\\repos\\GrievanceAPI\\GrievanceAPI\\Migrations\\20260531055457_FixResolutionTracking.cs",
+              "RelativeDocumentMoniker": "GrievanceAPI\\Migrations\\20260531055457_FixResolutionTracking.cs",
+              "ToolTip": "C:\\Users\\Devika\\source\\repos\\GrievanceAPI\\GrievanceAPI\\Migrations\\20260531055457_FixResolutionTracking.cs",
+              "RelativeToolTip": "GrievanceAPI\\Migrations\\20260531055457_FixResolutionTracking.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T05:54:57.65Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GrievanceAPI.http",
-              "DocumentMoniker": "C:\\Users\\Devika\\source\\repos\\GrievanceAPI\\GrievanceAPI\\GrievanceAPI.http",
-              "RelativeDocumentMoniker": "GrievanceAPI\\GrievanceAPI.http",
-              "ToolTip": "C:\\Users\\Devika\\source\\repos\\GrievanceAPI\\GrievanceAPI\\GrievanceAPI.http",
-              "RelativeToolTip": "GrievanceAPI\\GrievanceAPI.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2026-04-14T05:10:51.394Z",
-              "EditorCaption": ""
+              "DocumentIndex": 6,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Devika\\source\\repos\\GrievanceAPI\\GrievanceAPI\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "GrievanceAPI\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Devika\\source\\repos\\GrievanceAPI\\GrievanceAPI\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "GrievanceAPI\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAADwvzQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T05:17:56.961Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Complaint.cs",
-              "DocumentMoniker": "C:\\Users\\Devika\\source\\repos\\GrievanceAPI\\GrievanceAPI\\Models\\Complaint.cs",
-              "RelativeDocumentMoniker": "GrievanceAPI\\Models\\Complaint.cs",
-              "ToolTip": "C:\\Users\\Devika\\source\\repos\\GrievanceAPI\\GrievanceAPI\\Models\\Complaint.cs",
-              "RelativeToolTip": "GrievanceAPI\\Models\\Complaint.cs",
+              "DocumentIndex": 15,
+              "Title": "20260531051637_AddUsersTable.cs",
+              "DocumentMoniker": "C:\\Users\\Devika\\source\\repos\\GrievanceAPI\\GrievanceAPI\\Migrations\\20260531051637_AddUsersTable.cs",
+              "RelativeDocumentMoniker": "GrievanceAPI\\Migrations\\20260531051637_AddUsersTable.cs",
+              "ToolTip": "C:\\Users\\Devika\\source\\repos\\GrievanceAPI\\GrievanceAPI\\Migrations\\20260531051637_AddUsersTable.cs",
+              "RelativeToolTip": "GrievanceAPI\\Migrations\\20260531051637_AddUsersTable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T05:10:42.69Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-31T05:16:37.441Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Devika\\source\\repos\\GrievanceAPI\\GrievanceAPI\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "GrievanceAPI\\Data\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\Devika\\source\\repos\\GrievanceAPI\\GrievanceAPI\\Data\\AppDbContext.cs",
               "RelativeToolTip": "GrievanceAPI\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABTAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T05:10:39.563Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-31T05:14:36.702Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Devika\\source\\repos\\GrievanceAPI\\GrievanceAPI\\Models\\User.cs",
+              "RelativeDocumentMoniker": "GrievanceAPI\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Devika\\source\\repos\\GrievanceAPI\\GrievanceAPI\\Models\\User.cs",
+              "RelativeToolTip": "GrievanceAPI\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T05:12:12.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DepartmentService.cs",
+              "DocumentMoniker": "C:\\Users\\Devika\\source\\repos\\GrievanceAPI\\GrievanceAPI\\Services\\DepartmentService.cs",
+              "RelativeDocumentMoniker": "GrievanceAPI\\Services\\DepartmentService.cs",
+              "ToolTip": "C:\\Users\\Devika\\source\\repos\\GrievanceAPI\\GrievanceAPI\\Services\\DepartmentService.cs",
+              "RelativeToolTip": "GrievanceAPI\\Services\\DepartmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T06:08:31.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ComplaintController.cs",
               "DocumentMoniker": "C:\\Users\\Devika\\source\\repos\\GrievanceAPI\\GrievanceAPI\\Controllers\\ComplaintController.cs",
               "RelativeDocumentMoniker": "GrievanceAPI\\Controllers\\ComplaintController.cs",
               "ToolTip": "C:\\Users\\Devika\\source\\repos\\GrievanceAPI\\GrievanceAPI\\Controllers\\ComplaintController.cs",
               "RelativeToolTip": "GrievanceAPI\\Controllers\\ComplaintController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAowKcAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T05:09:57.425Z",
+              "WhenOpened": "2026-05-05T13:49:09.205Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReportService.cs",
+              "DocumentMoniker": "C:\\Users\\Devika\\source\\repos\\GrievanceAPI\\GrievanceAPI\\Services\\ReportService.cs",
+              "RelativeDocumentMoniker": "GrievanceAPI\\Services\\ReportService.cs",
+              "ToolTip": "C:\\Users\\Devika\\source\\repos\\GrievanceAPI\\GrievanceAPI\\Services\\ReportService.cs*",
+              "RelativeToolTip": "GrievanceAPI\\Services\\ReportService.cs*",
+              "ViewState": "AgIAACQAAAAAAAAAAAAIwEYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T13:48:08.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20260531060359_AddResolutionHistory.cs",
+              "DocumentMoniker": "C:\\Users\\Devika\\source\\repos\\GrievanceAPI\\GrievanceAPI\\Migrations\\20260531060359_AddResolutionHistory.cs",
+              "RelativeDocumentMoniker": "GrievanceAPI\\Migrations\\20260531060359_AddResolutionHistory.cs",
+              "ToolTip": "C:\\Users\\Devika\\source\\repos\\GrievanceAPI\\GrievanceAPI\\Migrations\\20260531060359_AddResolutionHistory.cs",
+              "RelativeToolTip": "GrievanceAPI\\Migrations\\20260531060359_AddResolutionHistory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T06:03:59.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ResolutionHistory.cs",
+              "DocumentMoniker": "C:\\Users\\Devika\\source\\repos\\GrievanceAPI\\GrievanceAPI\\Models\\ResolutionHistory.cs",
+              "RelativeDocumentMoniker": "GrievanceAPI\\Models\\ResolutionHistory.cs",
+              "ToolTip": "C:\\Users\\Devika\\source\\repos\\GrievanceAPI\\GrievanceAPI\\Models\\ResolutionHistory.cs",
+              "RelativeToolTip": "GrievanceAPI\\Models\\ResolutionHistory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T06:01:06.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Complaint.cs",
+              "DocumentMoniker": "C:\\Users\\Devika\\source\\repos\\GrievanceAPI\\GrievanceAPI\\Models\\Complaint.cs",
+              "RelativeDocumentMoniker": "GrievanceAPI\\Models\\Complaint.cs",
+              "ToolTip": "C:\\Users\\Devika\\source\\repos\\GrievanceAPI\\GrievanceAPI\\Models\\Complaint.cs",
+              "RelativeToolTip": "GrievanceAPI\\Models\\Complaint.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAywBcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T14:05:22.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ResolutionService.cs",
+              "DocumentMoniker": "C:\\Users\\Devika\\source\\repos\\GrievanceAPI\\GrievanceAPI\\Services\\ResolutionService.cs",
+              "RelativeDocumentMoniker": "GrievanceAPI\\Services\\ResolutionService.cs",
+              "ToolTip": "C:\\Users\\Devika\\source\\repos\\GrievanceAPI\\GrievanceAPI\\Services\\ResolutionService.cs",
+              "RelativeToolTip": "GrievanceAPI\\Services\\ResolutionService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAswBcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T13:47:16.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20260531052934_AddResolutionTracking.cs",
+              "DocumentMoniker": "C:\\Users\\Devika\\source\\repos\\GrievanceAPI\\GrievanceAPI\\Migrations\\20260531052934_AddResolutionTracking.cs",
+              "RelativeDocumentMoniker": "GrievanceAPI\\Migrations\\20260531052934_AddResolutionTracking.cs",
+              "ToolTip": "C:\\Users\\Devika\\source\\repos\\GrievanceAPI\\GrievanceAPI\\Migrations\\20260531052934_AddResolutionTracking.cs",
+              "RelativeToolTip": "GrievanceAPI\\Migrations\\20260531052934_AddResolutionTracking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T05:29:34.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PriorityService.cs",
+              "DocumentMoniker": "C:\\Users\\Devika\\source\\repos\\GrievanceAPI\\GrievanceAPI\\Services\\PriorityService.cs",
+              "RelativeDocumentMoniker": "GrievanceAPI\\Services\\PriorityService.cs",
+              "ToolTip": "C:\\Users\\Devika\\source\\repos\\GrievanceAPI\\GrievanceAPI\\Services\\PriorityService.cs",
+              "RelativeToolTip": "GrievanceAPI\\Services\\PriorityService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T13:46:30.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SeverityService.cs",
+              "DocumentMoniker": "C:\\Users\\Devika\\source\\repos\\GrievanceAPI\\GrievanceAPI\\Services\\SeverityService.cs",
+              "RelativeDocumentMoniker": "GrievanceAPI\\Services\\SeverityService.cs",
+              "ToolTip": "C:\\Users\\Devika\\source\\repos\\GrievanceAPI\\GrievanceAPI\\Services\\SeverityService.cs",
+              "RelativeToolTip": "GrievanceAPI\\Services\\SeverityService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAIwCkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T13:45:31.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Devika\\source\\repos\\GrievanceAPI\\GrievanceAPI\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "GrievanceAPI\\Services\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\Devika\\source\\repos\\GrievanceAPI\\GrievanceAPI\\Services\\CategoryService.cs",
+              "RelativeToolTip": "GrievanceAPI\\Services\\CategoryService.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAAC8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T13:44:12.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Devika\\source\\repos\\GrievanceAPI\\GrievanceAPI\\Program.cs",
+              "RelativeDocumentMoniker": "GrievanceAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Devika\\source\\repos\\GrievanceAPI\\GrievanceAPI\\Program.cs",
+              "RelativeToolTip": "GrievanceAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T03:38:16.19Z"
             }
           ]
         }
