@@ -69,37 +69,53 @@ namespace GrievanceAPI.Controllers
             });
         }
 
-        // GET ALL COMPLAINTS
+        // GET ALL COMPLAINTS WITH FILTERS
         [HttpGet]
         public IActionResult GetComplaints(
-            string? status,
             string? category,
-            string? severity)
+            string? severity,
+            string? department,
+            string? status,
+            string? location)
         {
-            var complaints = _context.Complaints.ToList();
+            var complaints = _context.Complaints.AsQueryable();
 
-            if (!string.IsNullOrEmpty(status))
-            {
-                complaints = complaints
-                    .Where(c => c.Status == status)
-                    .ToList();
-            }
-
+            // CATEGORY FILTER
             if (!string.IsNullOrEmpty(category))
             {
-                complaints = complaints
-                    .Where(c => c.Category == category)
-                    .ToList();
+                complaints = complaints.Where(c =>
+                    c.Category == category);
             }
 
+            // SEVERITY FILTER
             if (!string.IsNullOrEmpty(severity))
             {
-                complaints = complaints
-                    .Where(c => c.Severity == severity)
-                    .ToList();
+                complaints = complaints.Where(c =>
+                    c.Severity == severity);
             }
 
-            return Ok(complaints);
+            // DEPARTMENT FILTER
+            if (!string.IsNullOrEmpty(department))
+            {
+                complaints = complaints.Where(c =>
+                    c.Department == department);
+            }
+
+            // STATUS FILTER
+            if (!string.IsNullOrEmpty(status))
+            {
+                complaints = complaints.Where(c =>
+                    c.Status == status);
+            }
+
+            // LOCATION FILTER
+            if (!string.IsNullOrEmpty(location))
+            {
+                complaints = complaints.Where(c =>
+                    c.Location == location);
+            }
+
+            return Ok(complaints.ToList());
         }
 
         // GET BY ID
@@ -118,9 +134,9 @@ namespace GrievanceAPI.Controllers
         }
 
         // UPDATE STATUS
+        // UPDATE STATUS
         [HttpPut("{id}")]
-        public IActionResult UpdateComplaint(
-            int id)
+        public IActionResult UpdateComplaint(int id)
         {
             var complaint =
                 _context.Complaints.Find(id);
@@ -130,19 +146,40 @@ namespace GrievanceAPI.Controllers
                 return NotFound("Complaint not found");
             }
 
+            // STORE OLD STATUS
+            var oldStatus = complaint.Status;
+
+            // UPDATE STATUS
             complaint.Status =
                 ResolutionService.UpdateStatus(
                     complaint.Status);
+
+            complaint.UpdatedAt = DateTime.Now;
+            complaint.Remarks = "Status updated";
+
+            // CREATE HISTORY RECORD
+            var history = new ResolutionHistory
+            {
+                ComplaintId = complaint.Id,
+                OldStatus = oldStatus,
+                NewStatus = complaint.Status,
+                Remarks = complaint.Remarks,
+                ChangedAt = DateTime.Now
+            };
+
+            _context.ResolutionHistories.Add(history);
 
             _context.SaveChanges();
 
             return Ok(new
             {
                 message = "Complaint updated successfully",
-                updatedStatus = complaint.Status
+                oldStatus = oldStatus,
+                updatedStatus = complaint.Status,
+                updatedAt = complaint.UpdatedAt,
+                remarks = complaint.Remarks
             });
         }
-
         // DELETE
         [HttpDelete("{id}")]
         public IActionResult DeleteComplaint(int id)
@@ -163,5 +200,31 @@ namespace GrievanceAPI.Controllers
                 message = "Complaint deleted successfully"
             });
         }
+
+        // REPORTS API
+        [HttpGet("reports")]
+        public IActionResult GetReports()
+        {
+            var complaints =
+                _context.Complaints.ToList();
+
+            var report =
+                ReportService.GenerateReport(
+                    complaints);
+
+            return Ok(report);
+        }
+
+        // RESOLUTION HISTORY
+        [HttpGet("history")]
+        public IActionResult GetHistory()
+        {
+            return Ok(
+                _context.ResolutionHistories
+                    .OrderByDescending(h => h.ChangedAt)
+                    .ToList());
+        }
+
+
     }
 }

@@ -19,9 +19,9 @@ namespace GrievanceAPI.Models
         public string? PriorityRank { get; set; } 
 
         public string? Status { get; set; }
-
-       
-
         public DateTime? SubmittedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; }
+        public string? Remarks { get; set; }
+
     }
 }
